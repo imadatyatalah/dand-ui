@@ -1,0 +1,19 @@
+{
+  "name": "dand-ui",
+  "version": "0.0.0",
+  "description": "A UI library",
+  "author": "Imad Atyat-Alah",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "private": true,
+  "keywords": [],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imadatyatalah/dand-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imadatyatalah/dand-ui/issues"
+  },
+  "homepage": "https://github.com/imadatyatalah/dand-ui#readme"
+}
