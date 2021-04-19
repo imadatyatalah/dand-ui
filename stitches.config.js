@@ -21,9 +21,4 @@ export const {
       primary900: "#081C15",
     },
   },
-  media: {},
-  utils: {},
-  prefix: "",
-  insertionMethod: "append | prepend | () => {}",
-  themeMap: {},
 });
