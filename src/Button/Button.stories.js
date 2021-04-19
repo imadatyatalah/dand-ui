@@ -9,9 +9,16 @@ export default {
 
 const Template = (args) => <Button {...args} />;
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const Large = Template.bind({});
+Large.args = {
   label: "Button",
+  size: "large",
+};
+
+export const Medium = Template.bind({});
+Medium.args = {
+  label: "Button",
+  size: "medium",
 };
 
 export const Small = Template.bind({});

@@ -6,7 +6,7 @@ export const StyledButton = styled("button", {
   border: "none",
   display: "inline-block",
   border: "none",
-  transitionDuration: "200ms",
+  transition: "200ms ease-in-out",
 
   "&:focus": {
     outline: "none",
@@ -16,12 +16,12 @@ export const StyledButton = styled("button", {
     color: {
       primary: {
         color: "white",
-        backgroundColor: "#49A47A",
+        backgroundColor: "$primary600",
 
         "&:hover": {
-          color: "#49A47A",
+          color: "$primary600",
           backgroundColor: "white",
-          border: "1px solid #49A47A",
+          border: "1px solid $primary600",
         },
 
         "&:active": {
@@ -31,13 +31,19 @@ export const StyledButton = styled("button", {
     },
     size: {
       large: {
-        padding: "11.5px 42px",
+        padding: "14px 44px",
         borderRadius: "5px",
         fontSize: "18px",
         fontWeight: "600",
       },
+      medium: {
+        padding: "12px 36px",
+        borderRadius: "5px",
+        fontSize: "16px",
+        fontWeight: "600",
+      },
       small: {
-        padding: "9px 32px",
+        padding: "10px 28px",
         borderRadius: "5px",
         fontSize: "16px",
         fontWeight: "600",

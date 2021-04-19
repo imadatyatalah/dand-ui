@@ -28,10 +28,10 @@ Button.propTypes = {
   /**
    * Button size
    */
-  size: PropTypes.string,
+  size: PropTypes.oneOf(["large", "medium", "small"]),
 };
 
 Button.defaultProps = {
   color: "primary",
-  size: "large",
+  size: "medium",
 };
