@@ -5,7 +5,6 @@
   "author": "Imad Atyat-Alah",
   "license": "MIT",
   "main": "dist/index.js",
-  "private": true,
   "keywords": [],
   "scripts": {
     "storybook": "start-storybook -p 6006",
