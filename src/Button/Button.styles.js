@@ -7,7 +7,6 @@ export const StyledButton = styled("button", {
   display: "inline-block",
   border: "none",
   transition: "200ms ease-in-out",
-
   "&:focus": {
     outline: "none",
   },
@@ -23,9 +22,11 @@ export const StyledButton = styled("button", {
           backgroundColor: "white",
           border: "1px solid $primary600",
         },
-
         "&:active": {
           backgroundColor: "#F8F9FA",
+        },
+        "&:focus": {
+          boxShadow: "0px 0px 15px 2px rgba(73,164,122,0.5)",
         },
       },
     },
