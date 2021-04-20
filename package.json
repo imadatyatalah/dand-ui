@@ -4,8 +4,6 @@
   "description": "A UI library",
   "author": "Imad Atyat-Alah",
   "license": "MIT",
-  "main": "dist/index.js",
-  "keywords": [],
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
