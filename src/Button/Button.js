@@ -6,11 +6,11 @@ import { StyledButton } from "./Button.styles";
 /**
  * Button component
  */
-export const Button = ({ label, color, size }) => {
+export const Button = ({ children, color, size }) => {
   return (
     <>
       <StyledButton type="button" color={color} size={size}>
-        {label}
+        {children}
       </StyledButton>
     </>
   );
@@ -20,7 +20,7 @@ export const Button = ({ label, color, size }) => {
 //   /**
 //    * Button content
 //    */
-//   label: PropTypes.string.isRequired,
+//   children: PropTypes.string.isRequired,
 //   /**
 //    * Button color
 //    */

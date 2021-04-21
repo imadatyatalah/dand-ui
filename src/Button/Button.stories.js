@@ -11,18 +11,18 @@ const Template = (args) => <Button {...args} />;
 
 export const Large = Template.bind({});
 Large.args = {
-  label: "Button",
+  children: "Button",
   size: "large",
 };
 
 export const Medium = Template.bind({});
 Medium.args = {
-  label: "Button",
+  children: "Button",
   size: "medium",
 };
 
 export const Small = Template.bind({});
 Small.args = {
-  label: "Button",
+  children: "Button",
   size: "small",
 };
