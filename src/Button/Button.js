@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 import { StyledButton } from "./Button.styles";
 
@@ -16,22 +16,22 @@ export const Button = ({ label, color, size }) => {
   );
 };
 
-Button.propTypes = {
-  /**
-   * Button content
-   */
-  label: PropTypes.string.isRequired,
-  /**
-   * Button color
-   */
-  color: PropTypes.string,
-  /**
-   * Button size
-   */
-  size: PropTypes.oneOf(["large", "medium", "small"]),
-};
+// Button.propTypes = {
+//   /**
+//    * Button content
+//    */
+//   label: PropTypes.string.isRequired,
+//   /**
+//    * Button color
+//    */
+//   color: PropTypes.string,
+//   /**
+//    * Button size
+//    */
+//   size: PropTypes.oneOf(["large", "medium", "small"]),
+// };
 
-Button.defaultProps = {
-  color: "primary",
-  size: "medium",
-};
+// Button.defaultProps = {
+//   color: "primary",
+//   size: "medium",
+// };
